@@ -91,7 +91,7 @@ def add_cors_header(resp):
 def index():
     return {
         'title': 'MTAPI',
-        'readme': 'Visit https://github.com/jonthornton/MTAPI for more info'
+        'readme': 'Visit https://github.com/Endolia-Industries/MTAPI/tree/master for more information about this particular instance. Please check out the original repo here --> https://github.com/jonthornton/MTAPI'
         }
 
 @app.route('/by-location', methods=['GET'])
